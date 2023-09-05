@@ -9,8 +9,12 @@
     <h4>Dane użytkownika</h4>
     <!-- metody w formularzu: GET, POST -->
     <form method="get" action="2.form.html">
-        Imię: <input type="text" firstName="imie"><br><br>
-        Nazwisko: <input type="text" lastName="Nazwisko"><br><br>
+        <label for="firstName">Imię</label>
+        <input type="text" firstName="imie" size="10" maxlength="4"><br><br>
+        <label for="lastName">Nazwisko</label>
+        <input type="text" lastName="Nazwisko" ><br><br>
+        <label for="pass">Hasło</label>
+        <input type="password" name="pass"><br><br>
         <input type="submit" value="Wyślij">
     </form>
 </body>
